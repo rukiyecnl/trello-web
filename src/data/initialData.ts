@@ -3,7 +3,10 @@ const initialData: ColumnItem[] = [
   {
     id: "todo",
     title: "To Do",
-    cards: [{ id: 1, title: "React Framework", desc: "React dilinde bir MVP proje çalışması" }],
+    cards: [
+      { id: 1, title: "React Framework", desc: "React dilinde bir MVP proje çalışması" },
+      { id: 5, title: "Nextjs Framework", desc: "nextjs dilinde bir MVP proje çalışması" }
+    ],
   },
   {
     id: "doing",
@@ -13,7 +16,10 @@ const initialData: ColumnItem[] = [
   {
     id: "review",
     title: "Review",
-    cards: [{ id: 3, title: "Drag and Drop", desc: "Kullanım yapısının araştırılması ve projeye eklenmesi" }],
+    cards: [
+      { id: 3, title: "Drag and Drop", desc: "Kullanım yapısının araştırılması ve projeye eklenmesi" },
+      { id: 6, title: "Risk kontrolü", desc: "Risk ve Bütçe kontrolü" }
+    ],
   },
   {
     id: "done",

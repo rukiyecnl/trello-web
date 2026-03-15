@@ -104,6 +104,9 @@ function onDragEnd(event: DragEndEvent) {
     <>
     <div className="mx-auto px-50 ">
       <Header />
+      <div className="py-10 px-4 mb-4 rounded-2xl bg-[#582d3363] text-center text-xl text-[#fbe6e6]">
+        Görev verileri localstorage üzerinde tutularak kullanıcıya sunuluyor.
+      </div>
       <DndContext
         sensors={sensors}
         collisionDetection={closestCorners}
