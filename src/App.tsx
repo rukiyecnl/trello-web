@@ -102,7 +102,7 @@ function onDragEnd(event: DragEndEvent) {
 
   return (
     <>
-    <div className="mx-auto px-50 ">
+    <div className="mx-auto lg:px-50 px-4 ">
       <Header />
       <div className="py-10 px-4 mb-4 rounded-2xl bg-[#582d3363] text-center text-xl text-[#fbe6e6]">
         Görev verileri localstorage üzerinde tutularak kullanıcıya sunuluyor.
